@@ -5,6 +5,8 @@ import Header from './Components/Header/Header'
 import GetStarted from './Components/GetStarted/GetStarted'
 import IndianMarketsSection from './Components/IndianMarketsSection/IndianMarketsSection'
 import CreditSection from './Components/CreditSection/CreditSection'
+import BillSection from './Components/BillSection/BillSection';
+import FinanceSection from './Components/FinanceSection/FinanceSection';
 
 function App() {
   return (
@@ -13,6 +15,9 @@ function App() {
       <GetStarted/>
       <IndianMarketsSection/>
       <CreditSection/>
+      <BillSection/>
+      <FinanceSection/>
+      
     </div>
   );
 }

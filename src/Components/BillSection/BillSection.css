@@ -1,0 +1,57 @@
+.BillSection-Wrapper{
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    width: 100%;
+    margin: 80px auto;
+}
+
+.BillSection-left{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    text-align: start;
+    margin-top: -100px;
+}
+
+.BillSection-right{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.Bill-Img{
+    width: 90%;
+}
+
+
+.BillSection-Img{
+    width: 150px;
+}
+
+.BillSection-Title{
+    font-size: 4rem;
+    color: rgb(68, 71, 91);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.BillSection-SubTitle{
+    margin: 10px 0;
+    font-size: 1rem;
+    color: rgb(119, 119, 119);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.BillSection-Button{
+    font-size: 1rem;
+    padding: 15px 20px;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    background: #00B386;
+}
