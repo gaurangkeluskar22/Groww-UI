@@ -1,0 +1,56 @@
+.CreditSection-Wrapper{
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    width: 100%;
+    margin: 80px auto;
+}
+
+.CreditSection-left{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    text-align: start;
+}
+
+.CreditSection-right{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.CreditSection-Img{
+    width: 100%;
+}
+
+
+.CreditSection-Building-Img{
+    width: 100px;
+}
+
+.CreditSection-Title{
+    font-size: 4rem;
+    color: rgb(68, 71, 91);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.CreditSection-SubTitle{
+    margin: 10px 0;
+    font-size: 1rem;
+    color: rgb(119, 119, 119);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.CreditSection-Button{
+    font-size: 1rem;
+    padding: 15px 20px;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    background: #00B386;
+}
