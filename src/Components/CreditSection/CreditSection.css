@@ -76,6 +76,17 @@
         flex-direction: column;
         gap: 20px;
         text-align: start;
+        position: relative;
+        animation: moveLeftToRight 1s ease;
+    }
+
+    @keyframes moveLeftToRight{
+        0%{
+            left: -40%;
+        }
+        100%{
+            left: 0;
+        }
     }
     
     .CreditSection-right{
@@ -83,7 +94,17 @@
         width: 50%;
         justify-content: center;
         align-items: flex-end;
-    
+        position: relative;
+        animation: moveRightToLeft 1s ease;
+    }
+
+    @keyframes moveRightToLeft{
+        0%{
+            right:-40%;
+        }
+        100%{
+            right: 0;
+        }
     }
     
     .CreditSection-Img{

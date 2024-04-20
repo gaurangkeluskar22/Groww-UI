@@ -39,6 +39,20 @@
 
 
 @media screen and (min-width:1024px) {
+    .GetStarted-details{
+        position: relative;
+        animation: moveTopToBottom 1s ease;
+    }
+
+    @keyframes moveTopToBottom{
+        0%{
+            top: calc(-100vh - 100px);
+        }
+        100%{
+            top:0;
+        }
+    }
+
     .GetStarted-wrapper{
         margin: 4rem auto;
         max-width: 1200px;

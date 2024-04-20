@@ -6,11 +6,13 @@ import StockHisto from '../../assets/stockHisto.webp'
 import Fno from '../../assets/fno.webp'
 import Mt from '../../assets/mutualFund.webp'
 import { IoIosArrowForward } from "react-icons/io";
+import { useEffect } from 'react'
+
 
 const IndianMarketsSection = () => {
     return(
         <div className="IndianMarkets-Wrapper">
-            <div className='IndianMarkets-left-section'>
+            <div className='IndianMarkets-left-section hidden'>
                 <img src={Building} alt='building' className='IndianMarkets-building'/>
                 <span className='IndianMarkets-Title'>Indian markets at<br></br>your fingertips.</span>
                 <span className='IndianMarkets-SubTitle'>Long-term or Short-term, high risk or low risk. Be the kind of investor <br></br>you want to be.</span>
@@ -36,7 +38,7 @@ const IndianMarketsSection = () => {
                     <IoIosArrowForward/>
                 </div>
             </div>
-            <div className="IndianMarkets-Img-Wrapper">
+            <div className="IndianMarkets-Img-Wrapper hiddenRight">
                 <img src={MobileStocks} alt='mobile-stocks' className="IndianMarkets-Img"/>
             </div>
         </div>

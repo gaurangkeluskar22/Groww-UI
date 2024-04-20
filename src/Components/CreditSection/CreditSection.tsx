@@ -5,7 +5,7 @@ import CreditBuilding from '../../assets/CreditBuilding.webp'
 const CreditSection = () => {
     return(
         <div className='CreditSection-Wrapper'>
-            <div className='CreditSection-left'>
+            <div className='CreditSection-left hidden'>
                 <img src={CreditBuilding} className="CreditSection-Building-Img" alt='credit-building'/>
                 <span className='CreditSection-Title'> Credit,<br></br>
                     when you need it.
@@ -13,7 +13,7 @@ const CreditSection = () => {
                 <span className='CreditSection-SubTitle'>Apply for loan, get it within minites.</span>
                 <button className='CreditSection-Button'>Know More</button>
             </div>
-            <div className='CreditSection-right'>
+            <div className='CreditSection-right hiddenRight'>
                 <img src={CreditImg} alt="credit" className='CreditSection-Img'/>
             </div>   
         </div>
