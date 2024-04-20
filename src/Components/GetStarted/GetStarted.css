@@ -1,24 +1,28 @@
 .GetStarted-wrapper{
-    margin: 4rem auto;
-    max-width: 1200px;
+    margin: 5rem auto;
+    max-width: 425px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .GetStarted-Title{
-    font-size: 5rem;
+    font-size: 5.5rem;
     color: rgb(77, 77, 77);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .GetStarted-SubTitle{
-    margin: 15px 0px;   
-    font-size: 1.5rem;
+    margin: 20px 0px;   
+    font-size: 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(93, 93, 93);
 }
 
 .GetStarted-Button{
-    font-size: 1rem;
+    font-size: 2rem;
     padding: 15px 20px;
     border: 0px;
     border-radius: 10px;
@@ -27,9 +31,51 @@
 }
 
 .GetStarted-Background-Img{
-    margin-top: -250px;
-    width: 1100px;
+    margin-top: -70px;
+    width: 425px;
     height: 100%;
     mix-blend-mode: multiply;
+}
+
+
+@media screen and (min-width:1024px) {
+    .GetStarted-wrapper{
+        margin: 4rem auto;
+        max-width: 1200px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .GetStarted-Title{
+        font-size: 5rem;
+        color: rgb(77, 77, 77);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .GetStarted-SubTitle{
+        margin: 15px 0px;   
+        font-size: 1.5rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(93, 93, 93);
+    }
+    
+    .GetStarted-Button{
+        font-size: 1rem;
+        padding: 15px 20px;
+        border: 0px;
+        border-radius: 10px;
+        color: white;
+        background: #00B386;
+    }
+    
+    .GetStarted-Background-Img{
+        margin-top: -250px;
+        width: 1100px;
+        height: 100%;
+        mix-blend-mode: multiply;
+    }    
 }
 

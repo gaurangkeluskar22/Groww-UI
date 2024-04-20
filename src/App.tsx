@@ -1,5 +1,4 @@
-import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 import Header from './Components/Header/Header'
 import GetStarted from './Components/GetStarted/GetStarted'

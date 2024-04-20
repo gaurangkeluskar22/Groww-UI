@@ -12,8 +12,7 @@ const IndianMarketsSection = () => {
         <div className="IndianMarkets-Wrapper">
             <div className='IndianMarkets-left-section'>
                 <img src={Building} alt='building' className='IndianMarkets-building'/>
-                <span className='IndianMarkets-Title'>Indian markets at<br></br>
-your fingertips.</span>
+                <span className='IndianMarkets-Title'>Indian markets at<br></br>your fingertips.</span>
                 <span className='IndianMarkets-SubTitle'>Long-term or Short-term, high risk or low risk. Be the kind of investor <br></br>you want to be.</span>
                 <div className='IndianMarkets-options'>
                     <div className='IndianMarkets-options-wrapper'>

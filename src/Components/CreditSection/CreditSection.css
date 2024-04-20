@@ -1,26 +1,30 @@
 .CreditSection-Wrapper{
     display: flex;
-    flex-direction: row;
-    max-width: 1200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 425px;
     width: 100%;
-    margin: 80px auto;
+    margin: 60px auto;
+    gap: 20px;
 }
 
 .CreditSection-left{
     display: flex;
-    width: 50%;
+    width: 100%;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     gap: 20px;
-    text-align: start;
+    text-align: center;
 }
 
 .CreditSection-right{
     display: flex;
-    width: 50%;
+    width: 100%;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 
 }
 
@@ -41,7 +45,7 @@
 
 .CreditSection-SubTitle{
     margin: 10px 0;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: rgb(119, 119, 119);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -53,4 +57,63 @@
     border-radius: 10px;
     color: white;
     background: #00B386;
+}
+
+@media screen and (min-width:1024px) {
+    .CreditSection-Wrapper{
+        display: flex;
+        flex-direction: row;
+        max-width: 1200px;
+        width: 100%;
+        margin: 80px auto;
+    }
+    
+    .CreditSection-left{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 20px;
+        text-align: start;
+    }
+    
+    .CreditSection-right{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        align-items: flex-end;
+    
+    }
+    
+    .CreditSection-Img{
+        width: 100%;
+    }
+    
+    
+    .CreditSection-Building-Img{
+        width: 100px;
+    }
+    
+    .CreditSection-Title{
+        font-size: 4rem;
+        color: rgb(68, 71, 91);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .CreditSection-SubTitle{
+        margin: 10px 0;
+        font-size: 1rem;
+        color: rgb(119, 119, 119);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .CreditSection-Button{
+        font-size: 1rem;
+        padding: 15px 20px;
+        border: 0px;
+        border-radius: 10px;
+        color: white;
+        background: #00B386;
+    }
 }

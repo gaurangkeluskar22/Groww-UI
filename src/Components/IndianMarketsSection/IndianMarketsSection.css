@@ -1,31 +1,32 @@
 .IndianMarkets-Wrapper{
-    margin: 80px auto;
-    max-width: 1200px;
+    margin: 60px auto;
+    max-width: 425px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .IndianMarkets-left-section{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    text-align: start;
-    width: 50%;
+    text-align: center;
+    width: 100%;
 }
 
 .IndianMarkets-Img-Wrapper{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 100%;
 }
 
 .IndianMarkets-Img{
-    width: 50%;
+    width: 70%;
 }
 
 .IndianMarkets-building{
@@ -53,7 +54,7 @@
     border: 1px solid grey;
     border-radius: 10px;
     padding: 10px;
-    width: 410px;
+    width: 80%;
     margin-top: 10px;
     height: 50px;
 }
@@ -76,5 +77,86 @@
     font-size: 1rem;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   
+}
+
+@media screen and (min-width:1024px) {
+    .IndianMarkets-Wrapper{
+        margin: 80px auto;
+        max-width: 1200px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    .IndianMarkets-left-section{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        text-align: start;
+        width: 50%;
+    }
+    
+    .IndianMarkets-Img-Wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        width: 50%;
+    }
+    
+    .IndianMarkets-Img{
+        width: 50%;
+    }
+    
+    .IndianMarkets-building{
+        width: 150px;
+    }
+    
+    .IndianMarkets-Title{
+        font-size: 4rem;
+        color: rgb(68, 71, 91);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .IndianMarkets-SubTitle{
+        margin: 15px 0;
+        font-size: 1rem;
+        color: rgb(119, 119, 119);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .IndianMarkets-options{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid grey;
+        border-radius: 10px;
+        padding: 10px;
+        width: 410px;
+        margin-top: 10px;
+        height: 50px;
+    }
+    
+    .IndianMarkets-options:hover {
+        box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.5);
+    }
+    
+    .IndianMarkets-options-wrapper{
+        align-items: center;
+        display: flex;
+        gap: 20px;
+    }
+    
+    .IndianMarkets-options-logo{
+        width: 40px;
+    }
+    
+    .IndianMarkets-options-text{
+        font-size: 1rem;
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 }
