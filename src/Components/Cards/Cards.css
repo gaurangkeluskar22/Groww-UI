@@ -1,0 +1,18 @@
+.Cards-Wrapper{
+    position: relative;
+}
+
+.card1{
+    width: 250px;
+    height: 200px;
+    background-color: red;
+    border-radius: 10px;
+    transform: rotate(-10deg);
+}
+
+.card1:hover{
+    transform: rotate(0deg);
+    transition: tranform 15s;
+    position: absolute;
+    top:30px;
+}

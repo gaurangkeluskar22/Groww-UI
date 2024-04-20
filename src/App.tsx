@@ -7,6 +7,7 @@ import IndianMarketsSection from './Components/IndianMarketsSection/IndianMarket
 import CreditSection from './Components/CreditSection/CreditSection'
 import BillSection from './Components/BillSection/BillSection';
 import FinanceSection from './Components/FinanceSection/FinanceSection';
+import Cards from './Components/Cards/Cards';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <CreditSection/>
       <BillSection/>
       <FinanceSection/>
-      
+      {/* <Cards/> */}
     </div>
   );
 }
