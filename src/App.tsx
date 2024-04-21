@@ -8,6 +8,7 @@ import BillSection from './Components/BillSection/BillSection';
 import FinanceSection from './Components/FinanceSection/FinanceSection';
 import Cards from './Components/Cards/Cards';
 import { useEffect } from 'react';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   
@@ -38,7 +39,8 @@ function App() {
       <CreditSection/>
       <BillSection/>
       <FinanceSection/>
-      {/* <Cards/> */}
+      <Cards/>
+      <Footer/>
     </div>
   );
 }
